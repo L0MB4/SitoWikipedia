@@ -1,0 +1,116 @@
+/*import api font*/
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    margin: auto;
+    background-color: #ffff;
+    display: block;
+    font-family: Helvetica, sans-serif;
+}
+
+#intestazione{
+    background-color: #e5e5e5;
+    position: relative;
+    width: 100%;
+    padding: 0.1rem;
+}
+
+#intestazione p{
+    color: rgb(77, 76, 76);
+    position: relative;
+    left: 3rem;
+    font-family: Playfair Display, Arial, Helvetica, sans-serif;
+}
+
+.informazioni_generali{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.informazioni_generali #nome{
+    font-family: Playfair Display, Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+
+.informazioni_generali #descrizione{
+    font-size: 10pt;
+    color: rgb(77, 76, 76);
+    position: relative;
+    top: 0.3rem;
+}
+
+#linea_divisoria{
+    background-color: rgb(161, 160, 160);
+    width: 94%;
+    height: 1px;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.didascalia{
+    margin-left: 1rem;
+}
+.didascalia a{
+    text-decoration: none;
+}
+.didascalia p{
+    font-size: 14px;
+    font-family: helvetica, Arial, sans-serif;
+}
+
+/*tabella*/
+table{
+  margin: auto;
+  margin-top: 1.5rem;
+  border: 1px solid rgb(218, 215, 215);
+  width: 29.3rem;
+  border-collapse: collapse;
+  font-size: 10pt;
+}
+td{
+  border: 1px solid rgb(218, 215, 215);
+  padding: 0.3rem;
+  width: 50%;
+}
+table #identificativo{
+  background-color: rgb(176, 180, 222) ;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+#immagine img{
+  width: 10rem;
+}
+#immagine{
+  font-size: 9pt;
+  text-align: center;
+}
+
+#linea{
+  padding: 0rem;
+}
+
+hr{
+  border: 0.5px solid rgb(192, 188, 188);
+}
+
+#info{
+  background-color: rgb(237, 237, 237);
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+#sinistra{
+  background-color: rgb(243, 242, 242);
+  font-weight: bold;
+}
+
+#nuovo{
+  background-color: rgb(9, 0, 73);
+  color: #ffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10pt;
+}
